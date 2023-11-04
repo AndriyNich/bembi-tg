@@ -1,0 +1,146 @@
+const itemsList = [
+  {
+    userId: 1014,
+    itemId: 22606,
+    vendorCode: '01124001134',
+    modelName: 'БД124',
+    itemName: 'БД124 интерлок, р.74',
+    size: '74',
+    colorId: 0,
+    colorName: '000',
+    operationId: 393039,
+    operationName: 'Распошить нижний срез рукава.',
+    numberOfPlan: 30,
+  },
+  {
+    userId: 1014,
+    itemId: 22606,
+    vendorCode: '01124001134',
+    modelName: 'БД124',
+    itemName: 'БД124 интерлок, р.74',
+    size: '74',
+    colorId: 0,
+    colorName: '000',
+    operationId: 393052,
+    operationName:
+      '1. Взять пропечатанный крой от сушки. 2.Сложить детали кроя в порядке нумерации. 3.Связать пачку.',
+    numberOfPlan: 30,
+  },
+  {
+    userId: 1014,
+    itemId: 22606,
+    vendorCode: '01124001134',
+    modelName: 'БД124',
+    itemName: 'БД124 интерлок, р.74',
+    size: '74',
+    colorId: 0,
+    colorName: '000',
+    operationId: 393035,
+    operationName:
+      'Сформовать и заутюжить середину окантованого низа переда и спинки боди.',
+    numberOfPlan: 30,
+  },
+  {
+    userId: 1014,
+    itemId: 22607,
+    vendorCode: '01124001135',
+    modelName: 'БД124',
+    itemName: 'БД124 интерлок, р.80',
+    size: '80',
+    colorId: 0,
+    colorName: '000',
+    operationId: 393052,
+    operationName:
+      '1. Взять пропечатанный крой от сушки. 2.Сложить детали кроя в порядке нумерации. 3.Связать пачку.',
+    numberOfPlan: 50,
+  },
+  {
+    userId: 1014,
+    itemId: 22607,
+    vendorCode: '01124001135',
+    modelName: 'БД124',
+    itemName: 'БД124 интерлок, р.80',
+    size: '80',
+    colorId: 0,
+    colorName: '000',
+    operationId: 393035,
+    operationName:
+      'Сформовать и заутюжить середину окантованого низа переда и спинки боди.',
+    numberOfPlan: 50,
+  },
+  {
+    userId: 1014,
+    itemId: 22608,
+    vendorCode: '01124001135',
+    modelName: 'БД124',
+    itemName: 'БД124 интерлок, р.86',
+    size: '86',
+    colorId: 0,
+    colorName: '000',
+    operationId: 393035,
+    operationName:
+      'Сформовать и заутюжить середину окантованого низа переда и спинки боди.',
+    numberOfPlan: 50,
+  },
+  {
+    userId: 1014,
+    itemId: 22464,
+    vendorCode: '01123011032',
+    modelName: 'БД123',
+    itemName: 'БД123 супрем, р.62',
+    size: '62',
+    colorId: 0,
+    colorName: '000',
+    operationId: 393035,
+    operationName:
+      'Сформовать и заутюжить середину окантованого низа переда и спинки боди.',
+    numberOfPlan: 35,
+  },
+
+  {
+    userId: 1014,
+    itemId: 22608,
+    vendorCode: '01124001136',
+    modelName: 'БД124',
+    itemName: 'БД124 интерлок, р.86',
+    size: '86',
+    colorId: 0,
+    colorName: '000',
+    operationId: 393035,
+    operationName:
+      'Сформовать и заутюжить середину окантованого низа переда и спинки боди.',
+    numberOfPlan: 50,
+  },
+  {
+    userId: 1015,
+    itemId: 22464,
+    vendorCode: '01123011032',
+    modelName: 'БД123',
+    itemName: 'БД123 супрем, р.62',
+    size: '62',
+    colorId: 0,
+    colorName: '000',
+    operationId: 393035,
+    operationName:
+      'Сформовать и заутюжить середину окантованого низа переда и спинки боди.',
+    numberOfPlan: 35,
+  },
+];
+
+const usersList = [
+  {
+    userId: 1014,
+    userName: 'Підіпригора :) ',
+    chatId: 5104007377,
+  },
+  {
+    userId: 1015,
+    userName: 'Задеринога :) ',
+    chatId: 5104007378,
+  },
+];
+
+module.exports = {
+  usersList,
+  itemsList,
+};
