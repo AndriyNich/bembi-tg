@@ -3,7 +3,7 @@ const {
   SEPARATOR_VENDOR_CODE,
   SEPARATOR_SKU_ID,
 } = require('./stringConstants');
-const { OPERATIONS_LIST } = require('./data');
+const { OPERATIONS_LIST } = require('./operationsList');
 
 module.exports = {
   ITEM,
@@ -12,5 +12,3 @@ module.exports = {
   SEPARATOR_VENDOR_CODE,
   SEPARATOR_SKU_ID,
 };
-
-module.exports = {};

@@ -21,8 +21,6 @@ const bot = new TelegramBot(token, { polling: true });
 
 bot.setMyCommands(listOfCommands);
 
-// const data = OPERATIONS_LIST;
-// console.log(data);
 initMainList(OPERATIONS_LIST.data);
 
 const listOfSize = [[{ text: '104' }], [{ text: '110' }], [{ text: '116' }]];
